@@ -1,7 +1,7 @@
 #include <physical_layouts.dtsi>
 
 / {
-    gbenki_layout: gbenki_layout {
+    default_layout: default_layout {
         compatible = "zmk,physical-layout";
         display-name = "6 Column";
 
@@ -54,7 +54,7 @@
             ;
     };
 
-    layout_1: layout_1 {
+    five_col_layout: five_col_layout {
         compatible = "zmk,physical-layout";
         display-name = "5 Column";
 
